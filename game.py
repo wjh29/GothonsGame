@@ -122,15 +122,16 @@ class Map(object):
 		'finished': Finished(),
 		}
 
-		def __init__(self, start_scene):
-			self.start_scene = start_scene
+	def __init__(self, start_scene):
+		self.start_scene = start_scene
 
-			def next_scene(self, scene_name):
-				val = Map.scenes.get(scene_name)
-				return val
+	def next_scene(self, scene_name):
+		val = Map.scenes.get(scene_name)
+		return val
 
-				def opening_scene(self):
-					return self.next_scene(self.start_scene)
+	def opening_scene(self):
+		return self.next_scene(self.start_scene)
+	
 a_map = Map('central_corridor')
 a_game = Engine(a_map)
 a_game.play()
