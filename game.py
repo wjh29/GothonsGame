@@ -116,7 +116,7 @@ class Map(object):
 	scenes = {
 		'central_corridor': CentralCorridor(),
 		'laser_weapon_armory': LaserWeaponArmory(),
-		'the_bridge': TheBridge(),
+		'the_bridge': Thebridge(),
 		'escape_pod': EscapePod(),
 		'death': Death(),
 		'finished': Finished(),
