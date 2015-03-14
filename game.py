@@ -128,6 +128,28 @@ class Map(object):
 
 	def opening_scene(self):
 		return self.next_scene(self.start_scene)
+class the_bridge(scene)
+	def enter(self):
+		print "The neutron bomb is about to explode"
+		print "You must run!"
+		print "Jump on the ship"
+	code = "%d%d%d" % (randint(1,9), randint(1,9), randint(1,9))
+		guess = raw_input("[keypad]> ")
+		guesses = 0
+	if guess == code 
+		print "You reach the ship and you live"
+		print "You now sneak into the storage"
+	else:
+		print "Goodnight folks!"
+		print "its all over"
+		return "death"
+		
+		'finished'
+class death(scene)
+	def enter(self):
+		print "your are on the bridge when the bomb goes off"
+		print "your done"
+		return 'game over'
 	
 a_map = Map('central_corridor')
 a_game = Engine(a_map)
