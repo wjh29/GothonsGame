@@ -145,6 +145,19 @@ class the_bridge(scene)
 		return "death"
 		
 		'finished'
+class victory(scene)
+	def enter(self)
+		print "You are sneaking into the bridge of the ship"
+		print "But first you are going to take a selfie"
+		print "Now let's get serious. you are tip-toeing to the bridge"
+		print "You grab an ak-47"
+		print "You bust open the door"
+	elif action == 'shoot'
+		print "like a police officer you bust open the door"
+		print "The ship's captain is shocked"
+		print "Surrender!"
+		print "You are now in control of the ship"
+	
 class death(scene)
 	def enter(self):
 		print "your are on the bridge when the bomb goes off"
