@@ -145,7 +145,7 @@ class the_bridge(scene)
 		return "death"
 		
 		'finished'
-class victory(scene)
+class victory(scene):
 	def enter(self)
 		print "You are sneaking into the bridge of the ship"
 		print "But first you are going to take a selfie"
@@ -158,7 +158,7 @@ class victory(scene)
 		print "Surrender!"
 		print "You are now in control of the ship"
 	
-class death(scene)
+class death(scene):
 	def enter(self):
 		print "your are on the bridge when the bomb goes off"
 		print "your done"
